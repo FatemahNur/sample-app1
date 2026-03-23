@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: production-container
-        image: us-west1-docker.pkg.dev/qwiklabs-gcp-01-e44a173b8bad/my-repository/hello-cloudrun:v1.0
+        image: us-west1-docker.pkg.dev/qwiklabs-gcp-01-e44a173b8bad/my-repository/hello-cloudrun:v2.0
         ports:
         - containerPort: 8080
